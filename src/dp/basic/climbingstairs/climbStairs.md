@@ -22,7 +22,7 @@ f(1) = 1 // one step
 f(n) = f(n-1) + f(n-2) for n >= 2
 
 yaml
-Copy code
+
 
 ---
 
@@ -57,7 +57,7 @@ int climbStairs(int n) {
 }
 2️⃣ Memoization (Top-Down)
 java
-Copy code
+
 int climbStairs(int n, int[] dp) {
     if (n <= 1) return 1;
     if (dp[n] != -1) return dp[n];
@@ -72,7 +72,7 @@ public static void main(String[] args) {
 }
 3️⃣ Tabulation (Bottom-Up)
 java
-Copy code
+
 int climbStairs(int n) {
     int[] dp = new int[n+1];
     dp[0] = 1; dp[1] = 1;
@@ -83,7 +83,7 @@ int climbStairs(int n) {
 }
 4️⃣ Space Optimized
 java
-Copy code
+
 int climbStairs(int n) {
     if (n <= 1) return 1;
     int prev2 = 1, prev = 1;

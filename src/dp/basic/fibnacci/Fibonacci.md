@@ -10,13 +10,13 @@ Find the `n`th Fibonacci number.
 f(n) = f(n-1) + f(n-2)
 
 markdown
-Copy code
+
 **Base cases:**
 f(0) = 0
 f(1) = 1
 
 yaml
-Copy code
+
 
 ---
 
@@ -46,7 +46,7 @@ f(1) = 1
 f(n) = f(n-1) + f(n-2) for n ≥ 2
 
 yaml
-Copy code
+
 
 ---
 
@@ -60,7 +60,7 @@ int fib(int n) {
 }
 2️⃣ Memoization (Top-Down)
 java
-Copy code
+
 int fib(int n, int[] dp) {
     if (n <= 1) return n;
     if (dp[n] != -1) return dp[n];
@@ -68,7 +68,7 @@ int fib(int n, int[] dp) {
 }
 3️⃣ Tabulation (Bottom-Up)
 java
-Copy code
+
 int fib(int n) {
     int[] dp = new int[n+1];
     dp[0] = 0;
@@ -79,7 +79,7 @@ int fib(int n) {
 }
 4️⃣ Space Optimized
 java
-Copy code
+
 int fib(int n) {
     if (n <= 1) return n;
     int prev2 = 0, prev = 1;

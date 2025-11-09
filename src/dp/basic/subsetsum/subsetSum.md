@@ -15,7 +15,7 @@ Output: true
 Explanation: Subset {3, 8} = 11
 
 yaml
-Copy code
+
 
 ---
 
@@ -36,7 +36,7 @@ f(i, S) = f(i-1, S) OR f(i-1, S - arr[i]) if arr[i] <= S
 f(i, S) = f(i-1, S) otherwise
 
 markdown
-Copy code
+
 
 **Base Cases:**
 f(0, S) = true if arr[0] == S
@@ -44,7 +44,7 @@ f(i, 0) = true (empty subset)
 f(0, S) = false otherwise
 
 yaml
-Copy code
+
 
 ---
 
@@ -94,7 +94,7 @@ public class SubsetSumRecursive {
 }
 2️⃣ Memoization (Top-Down)
 java
-Copy code
+
 import java.util.Arrays;
 
 public class SubsetSumMemo {
@@ -123,7 +123,7 @@ public class SubsetSumMemo {
 }
 3️⃣ Tabulation (Bottom-Up)
 java
-Copy code
+
 public class SubsetSumTab {
     static boolean subsetSum(int[] arr, int target) {
         int n = arr.length;
@@ -154,7 +154,7 @@ public class SubsetSumTab {
 }
 4️⃣ Space Optimized (1D DP)
 java
-Copy code
+
 public class SubsetSumSpaceOpt {
     static boolean subsetSum(int[] arr, int target) {
         int n = arr.length;

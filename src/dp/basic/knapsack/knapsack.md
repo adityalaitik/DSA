@@ -36,13 +36,13 @@ f(i-1, W) // exclude item i
 )
 
 markdown
-Copy code
+
 
 **Base Case:**
 f(0, W) = val[0] if wt[0] <= W else 0
 
 pgsql
-Copy code
+
 
 ---
 
@@ -95,7 +95,7 @@ public class KnapsackRecursive {
 }
 2️⃣ Memoization (Top-Down)
 java
-Copy code
+
 import java.util.Arrays;
 
 public class KnapsackMemo {
@@ -123,7 +123,7 @@ public class KnapsackMemo {
 }
 3️⃣ Tabulation (Bottom-Up)
 java
-Copy code
+
 public class KnapsackTab {
     static int knapsack(int[] wt, int[] val, int W) {
         int n = wt.length;
@@ -150,7 +150,7 @@ public class KnapsackTab {
 }
 4️⃣ Space Optimized
 java
-Copy code
+
 public class KnapsackSpaceOpt {
     static int knapsack(int[] wt, int[] val, int W) {
         int n = wt.length;

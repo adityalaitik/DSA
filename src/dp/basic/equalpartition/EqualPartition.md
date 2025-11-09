@@ -15,7 +15,7 @@ Output: true
 Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 yaml
-Copy code
+
 
 ---
 
@@ -51,14 +51,14 @@ This is exactly the **Subset Sum problem**.
 f(i, target) = f(i-1, target) OR f(i-1, target - nums[i])
 
 markdown
-Copy code
+
 
 **Base cases:**
 f(i, 0) = true
 f(0, target) = (nums[0] == target)
 
 pgsql
-Copy code
+
 
 ---
 
@@ -105,7 +105,7 @@ public class EqualPartitionRecursive {
 }
 2️⃣ Memoization (Top-Down)
 java
-Copy code
+
 import java.util.Arrays;
 
 public class EqualPartitionMemo {
@@ -141,7 +141,7 @@ public class EqualPartitionMemo {
 }
 3️⃣ Tabulation (Bottom-Up)
 java
-Copy code
+
 public class EqualPartitionTab {
     static boolean canPartition(int[] nums) {
         int sum = 0;
@@ -175,7 +175,7 @@ public class EqualPartitionTab {
 }
 4️⃣ Space Optimized (1D DP)
 java
-Copy code
+
 public class EqualPartitionSpaceOpt {
     static boolean canPartition(int[] nums) {
         int sum = 0;
