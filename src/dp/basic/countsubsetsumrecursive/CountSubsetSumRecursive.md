@@ -14,7 +14,7 @@ Input: arr = [1, 2, 3], target = 3
 Output: 2
 Explanation: Subsets are [1, 2] and [3].
 
-yaml
+
 
 
 ---
@@ -41,7 +41,7 @@ markdown
 f(0, 0) = 1 (empty subset)
 f(0, target) = 1 if arr[0] == target else 0
 
-yaml
+
 
 
 ---

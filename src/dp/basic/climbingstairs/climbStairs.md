@@ -21,7 +21,7 @@ f(0) = 1 // one way (do nothing)
 f(1) = 1 // one step
 f(n) = f(n-1) + f(n-2) for n >= 2
 
-yaml
+
 
 
 ---

@@ -47,7 +47,7 @@ This backtracking gives the actual LCS string.
 Let:
 dp[i][j] = LCS length between text1[0..i-1] and text2[0..j-1]
 
-yaml
+
 
 
 ---

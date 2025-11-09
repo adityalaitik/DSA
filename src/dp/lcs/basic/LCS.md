@@ -21,7 +21,7 @@ Output: 3
 Explanation:
 The LCS is "ace", length = 3
 
-yaml
+
 
 
 ---
@@ -49,7 +49,7 @@ arduino
 **Base case:**
 if (i == 0 or j == 0) → f(i, j) = 0
 
-yaml
+
 
 
 ---

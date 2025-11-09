@@ -26,7 +26,7 @@ Explanation:
 (−1) + (+1) + (+2) + (+3) = 5 ❌
 Total valid ways = 3
 
-yaml
+
 
 
 ---
@@ -55,7 +55,7 @@ From these equations:
 2 * S1 = target + totalSum
 S1 = (target + totalSum) / 2
 
-yaml
+
 
 
 So the problem reduces to:
@@ -227,5 +227,5 @@ Output	Number of ways
 If you see signs (+, −) or differences between subsets,
 immediately think → Target Sum = Subset Sum with Transformation.
 
-yaml
+
 

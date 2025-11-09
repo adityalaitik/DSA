@@ -14,7 +14,7 @@ Input: arr = {2, 3, 7, 8, 10}, S = 11
 Output: true
 Explanation: Subset {3, 8} = 11
 
-yaml
+
 
 
 ---
@@ -43,7 +43,7 @@ f(0, S) = true if arr[0] == S
 f(i, 0) = true (empty subset)
 f(0, S) = false otherwise
 
-yaml
+
 
 
 ---
